@@ -1,0 +1,28 @@
+.description {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px 150px;
+    padding: 0px 30px;
+    color: rgba(29, 26, 26, 0.959);
+  }
+  .about-heading {
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    font-weight: bolder;
+    padding: 70px 0px 30px;
+    color:black;
+  }
+  @media only screen and (max-width:900px){
+      #about{
+          height:auto;
+          width:100%;
+          padding-bottom: 20px;
+      }
+      .description{
+          margin:0px;
+          font-size:20px;
+          text-align: justify;
+      }
+  }
